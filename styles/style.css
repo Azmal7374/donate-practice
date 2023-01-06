@@ -1,0 +1,254 @@
+
+/* common style starts */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.btn-primary{
+     background: #FF5959;
+     color: #fff;
+     border: 0;
+     padding: 15px;
+     border-radius: 4px;
+}
+/* common style  ends*/
+
+
+/* header style starts */
+header{
+    background-image: url(../images/donation13.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-details{
+    text-align: center;
+     padding: 25%;
+}
+
+.header-title{
+    font-weight: 700;
+    color: #fff;
+}
+.header-description{
+    font-size:15px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+
+
+/* header style ends */
+
+.section-title{
+    font-weight:700;
+    margin-bottom: 15px;
+}
+
+.section-desc{
+    font-size: 16px;
+    color:#707070 ;
+    margin-bottom: 15px;
+}
+
+
+.donate-container{
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.amount {
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    gap: 50px;
+   
+    border-radius: 5px;
+    
+}
+
+.amount div{
+    /* width: 80px;
+   height:20px; */
+    background: #FAFAFA;
+    border-radius: 5px;
+    border: none;
+    color: #707070;
+    font-weight: 700;
+    padding: 20px;
+}
+.amount .two{
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+}
+
+.amount div:hover{
+    color: #FF5959
+}
+
+.section-footer{
+    font-size: 16px;
+    color:#707070 ;
+    margin-bottom: 5px;
+}
+
+
+hr{
+    width: 40%;
+    margin:auto ;
+    margin-bottom: 15px;
+
+}
+
+
+.donate-card {
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+
+}
+.card-title {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.card-desc{
+  text-align: left;
+  color:#707070 ;
+  margin-bottom: 10px;
+
+}
+
+.donate-card img{
+    height:30px;
+    width: 30px;
+    margin-right: 160px;
+    margin-bottom: 10px;
+}
+
+.donate-card .card1{
+    width:200px;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+
+    
+}
+.donate-card .card2{
+    width:200px;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    padding: 20px;
+
+
+}
+.donate-card .card3{
+    width:200px;
+    background: #FFF4D6;
+    border-radius: 5px;
+    padding: 20px;
+
+
+}
+
+
+.contribution{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:50px;
+    margin-top: 80px;
+}
+.left-div{
+    width:300px;
+}
+
+.contribution-title{
+    margin-bottom:15px;
+    font-weight: 700;
+}
+.contribution-desc{
+    margin-bottom:15px;
+    color:#707070 ;
+}
+
+.right-div{
+    width:400px;
+    
+}
+
+.contribution-img{
+    height: 300px;
+    width: 385px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+
+.six{
+    background-color:rgb(214, 201, 127);
+    display:flex;
+    /* justify-content:center;
+    align-items:center; */
+    width:60%;
+    height: 200px;
+    margin: auto;
+    margin-top:50px;
+}
+
+.twobutton{
+    display:flex;
+     margin:auto;
+ }
+
+ 
+
+.btn3{
+    background-color:gray;
+    text-align:center;
+     border:solid gray;
+    /* border-right: none; */
+    border-radius: 5px 0 0 5px;
+    width:250px;
+    text-align:left;
+
+ }
+ .btn4{
+    background-color: coral;  
+    color: #fff;
+    border:solid coral;
+    /* border-left: none; */
+    border-radius:0 5px 5px 0;
+    width: 140px;
+    height: 40px; 
+    
+ }
+
+
+ footer{
+    background-color: #0B0D17;;
+    width: 100%;
+    height: 150px;
+    margin-top:70px ;
+ }
+
+ .footh2{
+    text-align:center;
+    margin-bottom:20px;
+    color:coral;
+    font-style: italic;
+     padding: 15px;
+ }
+
+ .footp{ 
+    color:gray;
+    text-align:center;
+ }
